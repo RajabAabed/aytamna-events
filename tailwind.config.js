@@ -89,9 +89,7 @@ module.exports = {
       },
 
       boxShadow: {
-        modal: "0 0 2px 0 rgba(194, 194, 194,1)",
-        dasboard: "0 0 2px 0 rgba(0, 0, 0, 0.25)",
-        dasboardItem: "0 0 2px 0 ",
+        card: "0 4px 25px 0 rgba(0, 0, 0,0.08)",
       },
     },
   },

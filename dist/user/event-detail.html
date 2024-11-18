@@ -1,0 +1,713 @@
+<!DOCTYPE html>
+<html
+  lang="ar"
+  dir="rtl"
+>
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+
+    <link
+      rel="icon"
+      type="image/png"
+      href="../assets/images/logo-dark.svg"
+    />
+
+    <!-- Css Files -->
+    <link
+      rel="stylesheet"
+      href="../assets/css/splide.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="../assets/css/style.min.css"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <header></header>
+    <main>
+      <div
+        class="page-header border-b-2 border-[#E2E2E2] container mx-auto mb-10 px-4 md:px-0 py-12"
+      >
+        <h1 class="font-IBM font-bold text-primary-600 text-h3 mb-5">
+          تفاصيل الفعالية
+        </h1>
+        <div class="flex justify-center items-stretch gap-5 flex-wrap">
+          <div
+            class="flex-auto md:flex-1 flex justify-start items-stretch gap-5 w-full flex-wrap"
+          >
+            <div
+              class="local-event flex flex-col justify-center items-center p-7 rounded-lg flex-1"
+            >
+              <h3 class="font-IBM font-bold text-title text-white mb-3">
+                نهاية السنة
+              </h3>
+              <div class="badge-primary">
+                <span>الأحد, 28 ابريل 2024</span
+                ><img
+                  src="../assets/icons/calendar.svg"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="flex-1 flex flex-col justify-between items-start">
+              <h3 class="font-IBM font-medium text-title text-primary-600 mb-3">
+                فعالية نهاية السنة
+              </h3>
+              <p class="font-IBM font-normal text-body text-grey-800 mb-3">
+                هنا نص وصف فعالية نهاية السنة
+              </p>
+              <div class="location flex justify-start items-center gap-1 mb-3">
+                <img
+                  src="../assets/icons/courthouse.svg"
+                  alt=""
+                />
+                <p class="font-IBM font-normal text-body text-grey-900">
+                  جمعية أيتامنا
+                </p>
+              </div>
+              <div
+                class="share flex flex-wrap justify-start items-center gap-1 mb-3"
+              >
+                <img
+                  src="../assets/icons/share.svg"
+                  alt=""
+                />
+                <p
+                  class="font-IBM font-normal text-body text-grey-900 whitespace-nowrap mb-3"
+                >
+                  شارك الفعالية مع الأصدقاء
+                </p>
+                <div class="w-full">
+                  <div class="flex justify-start items-center gap-3">
+                    <button class="btn facebook">
+                      <img
+                        src="../assets/icons/facebook.svg"
+                        alt=""
+                        class="w-5"
+                      />
+                    </button>
+                    <button class="btn twitter">
+                      <img
+                        src="../assets/icons/x.svg"
+                        alt=""
+                        class="w-5"
+                      />
+                    </button>
+                    <button class="btn linkedin">
+                      <img
+                        src="../assets/icons/linkedin.svg"
+                        alt=""
+                        class="w-5"
+                      />
+                    </button>
+                    <button class="btn whatsapp">
+                      <img
+                        src="../assets/icons/whatsapp.svg"
+                        alt=""
+                        class="w-5"
+                      />
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="flex-auto md:flex-1 flex justify-end items-stretch">
+            <div
+              class="rounded-lg border border-[#2424241A] w-full md:w-auto p-9"
+            >
+              <p class="font-IBM font-medium text-primary-600 text-body mb-5">
+                أضف الفعالية لتقويمك الشخصي
+              </p>
+              <a
+                href="#"
+                class="btn-primary-secondary w-full mb-3"
+              >
+                <img
+                  src="../assets/icons/google-calender.svg"
+                  alt=""
+                />
+              </a>
+              <a
+                href="#"
+                class="btn-primary-secondary w-full mb-3"
+              >
+                <span>Outlook</span>
+                <img
+                  src="../assets/icons/outlook.svg"
+                  alt=""
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="back-btn container mx-auto mb-10 px-4 md:px-0 py-7">
+        <a
+          href="#"
+          class="btn-primary w-max mx-auto"
+        >
+          <img
+            src="../assets/icons/arrow-right.svg"
+            alt=""
+          />
+          <span>العودة لقائمة الفعاليات</span>
+        </a>
+      </div>
+      <div class="relative-events container mx-auto px-4 md:px-0 py-7">
+        <div class="py-5">
+          <h3 class="font-IBM text-primary-500 font-bold text-h4 mb-5">
+            الفعاليات بالقرب منك
+          </h3>
+          <div
+            style="direction: ltr"
+            class="splide splide1"
+            data-splide='{"perPage":4}'
+          >
+            <div class="splide__track">
+              <ul class="splide__list">
+                <li class="splide__slide p-1.5">
+                  <div class="event-card rounded-lg shadow-card p-5 text-end">
+                    <div
+                      class="card-header local-event rounded-lg p-5 flex flex-col items-end"
+                    >
+                      <h3 class="font-IBM font-bold text-title text-white mb-3">
+                        نهاية السنة
+                      </h3>
+                      <div class="badge-primary">
+                        <span>الأحد, 28 ابريل 2024</span
+                        ><img
+                          src="../assets/icons/calendar.svg"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                    <div class="card-body p-5 flex flex-col items-end">
+                      <h3
+                        class="font-IBM font-bold text-title text-primary-600 mb-3"
+                      >
+                        نهاية السنة
+                      </h3>
+                      <p class="font-IBM font-normal text-body text-grey-900">
+                        وصف فعالية نهاية السنة
+                      </p>
+                      <div
+                        class="location flex justify-end items-center gap-1 my-3"
+                      >
+                        <p class="font-IBM font-normal text-body text-grey-900">
+                          جدة
+                        </p>
+                        <img
+                          src="../assets/icons/location.svg"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                    <div class="card-footer">
+                      <a
+                        href="event-detail.html"
+                        class="btn-primary-secondary"
+                      >
+                        <img
+                          src="../assets/icons/arrow-left.svg"
+                          alt=""
+                        />
+                        <span>عرض التفاصيل</span>
+                      </a>
+                    </div>
+                  </div>
+                </li>
+                <li class="splide__slide p-1.5">
+                  <div class="event-card rounded-lg shadow-card p-5 text-end">
+                    <div
+                      class="card-header local-event rounded-lg p-5 flex flex-col items-end"
+                    >
+                      <h3 class="font-IBM font-bold text-title text-white mb-3">
+                        نهاية السنة
+                      </h3>
+                      <div class="badge-primary">
+                        <span>الأحد, 28 ابريل 2024</span
+                        ><img
+                          src="../assets/icons/calendar.svg"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                    <div class="card-body p-5 flex flex-col items-end">
+                      <h3
+                        class="font-IBM font-bold text-title text-primary-600 mb-3"
+                      >
+                        نهاية السنة
+                      </h3>
+                      <p class="font-IBM font-normal text-body text-grey-900">
+                        وصف فعالية نهاية السنة
+                      </p>
+                      <div
+                        class="location flex justify-end items-center gap-1 my-3"
+                      >
+                        <p class="font-IBM font-normal text-body text-grey-900">
+                          جدة
+                        </p>
+                        <img
+                          src="../assets/icons/location.svg"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                    <div class="card-footer">
+                      <a
+                        href="event-detail.html"
+                        class="btn-primary-secondary"
+                      >
+                        <img
+                          src="../assets/icons/arrow-left.svg"
+                          alt=""
+                        />
+                        <span>عرض التفاصيل</span>
+                      </a>
+                    </div>
+                  </div>
+                </li>
+                <li class="splide__slide p-1.5">
+                  <div class="event-card rounded-lg shadow-card p-5 text-end">
+                    <div
+                      class="card-header local-event rounded-lg p-5 flex flex-col items-end"
+                    >
+                      <h3 class="font-IBM font-bold text-title text-white mb-3">
+                        نهاية السنة
+                      </h3>
+                      <div class="badge-primary">
+                        <span>الأحد, 28 ابريل 2024</span
+                        ><img
+                          src="../assets/icons/calendar.svg"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                    <div class="card-body p-5 flex flex-col items-end">
+                      <h3
+                        class="font-IBM font-bold text-title text-primary-600 mb-3"
+                      >
+                        نهاية السنة
+                      </h3>
+                      <p class="font-IBM font-normal text-body text-grey-900">
+                        وصف فعالية نهاية السنة
+                      </p>
+                      <div
+                        class="location flex justify-end items-center gap-1 my-3"
+                      >
+                        <p class="font-IBM font-normal text-body text-grey-900">
+                          جدة
+                        </p>
+                        <img
+                          src="../assets/icons/location.svg"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                    <div class="card-footer">
+                      <a
+                        href="event-detail.html"
+                        class="btn-primary-secondary"
+                      >
+                        <img
+                          src="../assets/icons/arrow-left.svg"
+                          alt=""
+                        />
+                        <span>عرض التفاصيل</span>
+                      </a>
+                    </div>
+                  </div>
+                </li>
+                <li class="splide__slide p-1.5">
+                  <div class="event-card rounded-lg shadow-card p-5 text-end">
+                    <div
+                      class="card-header global-event rounded-lg p-5 flex flex-col items-end"
+                    >
+                      <h3 class="font-IBM font-bold text-title text-white mb-3">
+                        نهاية السنة
+                      </h3>
+                      <div class="badge-primary">
+                        <span>الأحد, 28 ابريل 2024</span
+                        ><img
+                          src="../assets/icons/calendar.svg"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                    <div class="card-body p-5 flex flex-col items-end">
+                      <h3
+                        class="font-IBM font-bold text-title text-primary-600 mb-3"
+                      >
+                        نهاية السنة
+                      </h3>
+                      <p class="font-IBM font-normal text-body text-grey-900">
+                        وصف فعالية نهاية السنة
+                      </p>
+                      <div
+                        class="location flex justify-end items-center gap-1 my-3"
+                      >
+                        <p class="font-IBM font-normal text-body text-grey-900">
+                          جدة
+                        </p>
+                        <img
+                          src="../assets/icons/location.svg"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                    <div class="card-footer">
+                      <a
+                        href="event-detail.html"
+                        class="btn-primary-secondary"
+                      >
+                        <img
+                          src="../assets/icons/arrow-left.svg"
+                          alt=""
+                        />
+                        <span>عرض التفاصيل</span>
+                      </a>
+                    </div>
+                  </div>
+                </li>
+                <li class="splide__slide p-1.5">
+                  <div class="event-card rounded-lg shadow-card p-5 text-end">
+                    <div
+                      class="card-header local-event rounded-lg p-5 flex flex-col items-end"
+                    >
+                      <h3 class="font-IBM font-bold text-title text-white mb-3">
+                        نهاية السنة
+                      </h3>
+                      <div class="badge-primary">
+                        <span>الأحد, 28 ابريل 2024</span
+                        ><img
+                          src="../assets/icons/calendar.svg"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                    <div class="card-body p-5 flex flex-col items-end">
+                      <h3
+                        class="font-IBM font-bold text-title text-primary-600 mb-3"
+                      >
+                        نهاية السنة
+                      </h3>
+                      <p class="font-IBM font-normal text-body text-grey-900">
+                        وصف فعالية نهاية السنة
+                      </p>
+                      <div
+                        class="location flex justify-end items-center gap-1 my-3"
+                      >
+                        <p class="font-IBM font-normal text-body text-grey-900">
+                          جدة
+                        </p>
+                        <img
+                          src="../assets/icons/location.svg"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                    <div class="card-footer">
+                      <a
+                        href="event-detail.html"
+                        class="btn-primary-secondary"
+                      >
+                        <img
+                          src="../assets/icons/arrow-left.svg"
+                          alt=""
+                        />
+                        <span>عرض التفاصيل</span>
+                      </a>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="py-5">
+          <h3 class="font-IBM text-primary-500 font-bold text-h4 mb-5">
+            الأكثر شيوعاً
+          </h3>
+          <div
+            style="direction: ltr"
+            class="splide splide2"
+            data-splide='{"perPage":4}'
+          >
+            <div class="splide__track">
+              <ul class="splide__list">
+                <li class="splide__slide p-1.5">
+                  <div class="event-card rounded-lg shadow-card p-5 text-end">
+                    <div
+                      class="card-header local-event rounded-lg p-5 flex flex-col items-end"
+                    >
+                      <h3 class="font-IBM font-bold text-title text-white mb-3">
+                        نهاية السنة
+                      </h3>
+                      <div class="badge-primary">
+                        <span>الأحد, 28 ابريل 2024</span
+                        ><img
+                          src="../assets/icons/calendar.svg"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                    <div class="card-body p-5 flex flex-col items-end">
+                      <h3
+                        class="font-IBM font-bold text-title text-primary-600 mb-3"
+                      >
+                        نهاية السنة
+                      </h3>
+                      <p class="font-IBM font-normal text-body text-grey-900">
+                        وصف فعالية نهاية السنة
+                      </p>
+                      <div
+                        class="location flex justify-end items-center gap-1 my-3"
+                      >
+                        <p class="font-IBM font-normal text-body text-grey-900">
+                          جدة
+                        </p>
+                        <img
+                          src="../assets/icons/location.svg"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                    <div class="card-footer">
+                      <a
+                        href="event-detail.html"
+                        class="btn-primary-secondary"
+                      >
+                        <img
+                          src="../assets/icons/arrow-left.svg"
+                          alt=""
+                        />
+                        <span>عرض التفاصيل</span>
+                      </a>
+                    </div>
+                  </div>
+                </li>
+                <li class="splide__slide p-1.5">
+                  <div class="event-card rounded-lg shadow-card p-5 text-end">
+                    <div
+                      class="card-header local-event rounded-lg p-5 flex flex-col items-end"
+                    >
+                      <h3 class="font-IBM font-bold text-title text-white mb-3">
+                        نهاية السنة
+                      </h3>
+                      <div class="badge-primary">
+                        <span>الأحد, 28 ابريل 2024</span
+                        ><img
+                          src="../assets/icons/calendar.svg"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                    <div class="card-body p-5 flex flex-col items-end">
+                      <h3
+                        class="font-IBM font-bold text-title text-primary-600 mb-3"
+                      >
+                        نهاية السنة
+                      </h3>
+                      <p class="font-IBM font-normal text-body text-grey-900">
+                        وصف فعالية نهاية السنة
+                      </p>
+                      <div
+                        class="location flex justify-end items-center gap-1 my-3"
+                      >
+                        <p class="font-IBM font-normal text-body text-grey-900">
+                          جدة
+                        </p>
+                        <img
+                          src="../assets/icons/location.svg"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                    <div class="card-footer">
+                      <a
+                        href="event-detail.html"
+                        class="btn-primary-secondary"
+                      >
+                        <img
+                          src="../assets/icons/arrow-left.svg"
+                          alt=""
+                        />
+                        <span>عرض التفاصيل</span>
+                      </a>
+                    </div>
+                  </div>
+                </li>
+                <li class="splide__slide p-1.5">
+                  <div class="event-card rounded-lg shadow-card p-5 text-end">
+                    <div
+                      class="card-header local-event rounded-lg p-5 flex flex-col items-end"
+                    >
+                      <h3 class="font-IBM font-bold text-title text-white mb-3">
+                        نهاية السنة
+                      </h3>
+                      <div class="badge-primary">
+                        <span>الأحد, 28 ابريل 2024</span
+                        ><img
+                          src="../assets/icons/calendar.svg"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                    <div class="card-body p-5 flex flex-col items-end">
+                      <h3
+                        class="font-IBM font-bold text-title text-primary-600 mb-3"
+                      >
+                        نهاية السنة
+                      </h3>
+                      <p class="font-IBM font-normal text-body text-grey-900">
+                        وصف فعالية نهاية السنة
+                      </p>
+                      <div
+                        class="location flex justify-end items-center gap-1 my-3"
+                      >
+                        <p class="font-IBM font-normal text-body text-grey-900">
+                          جدة
+                        </p>
+                        <img
+                          src="../assets/icons/location.svg"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                    <div class="card-footer">
+                      <a
+                        href="event-detail.html"
+                        class="btn-primary-secondary"
+                      >
+                        <img
+                          src="../assets/icons/arrow-left.svg"
+                          alt=""
+                        />
+                        <span>عرض التفاصيل</span>
+                      </a>
+                    </div>
+                  </div>
+                </li>
+                <li class="splide__slide p-1.5">
+                  <div class="event-card rounded-lg shadow-card p-5 text-end">
+                    <div
+                      class="card-header global-event rounded-lg p-5 flex flex-col items-end"
+                    >
+                      <h3 class="font-IBM font-bold text-title text-white mb-3">
+                        نهاية السنة
+                      </h3>
+                      <div class="badge-primary">
+                        <span>الأحد, 28 ابريل 2024</span
+                        ><img
+                          src="../assets/icons/calendar.svg"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                    <div class="card-body p-5 flex flex-col items-end">
+                      <h3
+                        class="font-IBM font-bold text-title text-primary-600 mb-3"
+                      >
+                        نهاية السنة
+                      </h3>
+                      <p class="font-IBM font-normal text-body text-grey-900">
+                        وصف فعالية نهاية السنة
+                      </p>
+                      <div
+                        class="location flex justify-end items-center gap-1 my-3"
+                      >
+                        <p class="font-IBM font-normal text-body text-grey-900">
+                          جدة
+                        </p>
+                        <img
+                          src="../assets/icons/location.svg"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                    <div class="card-footer">
+                      <a
+                        href="event-detail.html"
+                        class="btn-primary-secondary"
+                      >
+                        <img
+                          src="../assets/icons/arrow-left.svg"
+                          alt=""
+                        />
+                        <span>عرض التفاصيل</span>
+                      </a>
+                    </div>
+                  </div>
+                </li>
+                <li class="splide__slide p-1.5">
+                  <div class="event-card rounded-lg shadow-card p-5 text-end">
+                    <div
+                      class="card-header local-event rounded-lg p-5 flex flex-col items-end"
+                    >
+                      <h3 class="font-IBM font-bold text-title text-white mb-3">
+                        نهاية السنة
+                      </h3>
+                      <div class="badge-primary">
+                        <span>الأحد, 28 ابريل 2024</span
+                        ><img
+                          src="../assets/icons/calendar.svg"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                    <div class="card-body p-5 flex flex-col items-end">
+                      <h3
+                        class="font-IBM font-bold text-title text-primary-600 mb-3"
+                      >
+                        نهاية السنة
+                      </h3>
+                      <p class="font-IBM font-normal text-body text-grey-900">
+                        وصف فعالية نهاية السنة
+                      </p>
+                      <div
+                        class="location flex justify-end items-center gap-1 my-3"
+                      >
+                        <p class="font-IBM font-normal text-body text-grey-900">
+                          جدة
+                        </p>
+                        <img
+                          src="../assets/icons/location.svg"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                    <div class="card-footer">
+                      <a
+                        href="event-detail.html"
+                        class="btn-primary-secondary"
+                      >
+                        <img
+                          src="../assets/icons/arrow-left.svg"
+                          alt=""
+                        />
+                        <span>عرض التفاصيل</span>
+                      </a>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer></footer>
+    <!-- preline JS  -->
+    <script src="../assets/js/preline.min.js"></script>
+    <!-- splide JS  -->
+    <script src="../assets/js/splide.min.js"></script>
+    <!-- Custom JS -->
+    <script src="../assets/js/script.js"></script>
+  </body>
+</html>
