@@ -1,0 +1,22 @@
+{
+  "name": "aytamna-dashboard",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "general-css": "npx tailwindcss -i ./src/general.css -o ./dist/assets/css/general.min.css --watch",
+    "custom-css": "npx tailwindcss -i ./src/custom.css -o ./dist/assets/css/custom.min.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@tailwindcss/forms": "^0.5.9",
+    "tailwindcss": "^3.4.13"
+  },
+  "dependencies": {
+    "@preline/select": "^2.5.0",
+    "preline": "^2.5.0"
+  }
+}
