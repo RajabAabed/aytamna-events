@@ -2143,7 +2143,8 @@ s-block
     align-items: flex-start;
     padding: 15px;
     border-radius: 9px !important;
-    justify-content: space-between;
+    justify-content: center;
+    height: 100%;
     gap: 14px;
 }
 
@@ -2195,3 +2196,58 @@ s-block
     font-size: 20px;
     width: 100%;
 }
+.event-share div {
+    display: flex;
+    gap: 8px;
+}
+
+.btn.facebook {
+    background-color: #1877F2;
+}
+
+.btn img.w-5 {
+    width: 30px;
+}
+
+.btn {
+    padding: 12px;
+    box-sizing: border-box;
+}
+
+.btn.twitter {
+    background-color: #000;
+}
+
+.btn.whatsapp {
+    background-color: #25D366;
+}
+
+.btn.linkedin {
+    background-color: #0A66C2;
+}.btn-section {
+    border: 1px solid #bdbdbd;
+    border-radius: 5px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+
+a.btn-primary-secondary.w-full {
+    width: 100%;
+    border: 1px solid #c7c7c7;
+    border-radius: 4px;
+    padding: 10px;
+    color: #213b58;
+}
+a.btn-back {
+    background: #223B58;
+    color: #fff;
+    padding: 15px 30px;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+.back-btn {text-align: center;}
